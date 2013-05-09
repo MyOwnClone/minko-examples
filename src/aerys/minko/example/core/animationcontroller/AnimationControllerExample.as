@@ -14,7 +14,7 @@ package aerys.minko.example.core.animationcontroller
 
 	public class AnimationControllerExample extends MinkoExampleApplication
 	{
-		[Embed("../assets/checker.jpg")]
+		[Embed("/../assets/checker.jpg")]
 		private static const EMBED_TEXTURE : Class;
 		
 		override protected function initializeScene() : void

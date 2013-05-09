@@ -6,7 +6,7 @@ package aerys.minko.example.core.dynamictexture
 
 	public class DynamicTextureExample extends MinkoExampleApplication
 	{
-		[Embed("../assets/minko_logo.swf")]
+		[Embed("/../assets/minko_logo.swf")]
 		private static const MINKO_LOGO_SWF	: Class;
 		
 		override protected function initializeScene() : void
