@@ -11,7 +11,7 @@ package aerys.minko.example.core.spritesheet
 
 	public class SpritesheetExample extends MinkoExampleApplication
 	{
-		[Embed("../assets/explosion.png")]
+		[Embed("/../assets/explosion.png")]
 		private static const ASSET_SPRITESHEET	: Class;
 		
 		override protected function initializeScene():void

@@ -9,10 +9,10 @@ package aerys.minko.example.collada.astroboy
 
 	public class AstroboyExample extends MinkoExampleApplication
 	{
-		[Embed(source="../assets/seymour/astroboy.dae", mimeType="application/octet-stream")]
+		[Embed(source="/../assets/seymour/astroboy.dae", mimeType="application/octet-stream")]
 		private static const DAE : Class;
 		
-		[Embed (source="../assets/seymour/boy_10.jpg")]
+		[Embed (source="/../assets/seymour/boy_10.jpg")]
 		private static const TEXTURE : Class;
 		
 		override protected function initializeScene() : void

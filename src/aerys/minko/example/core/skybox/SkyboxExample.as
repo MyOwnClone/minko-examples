@@ -10,22 +10,22 @@ package aerys.minko.example.core.skybox
 	
 	public class SkyboxExample extends MinkoExampleApplication
 	{
-		[Embed(source="../assets/skybox/negx.jpg")]
+		[Embed(source="/../assets/skybox/negx.jpg")]
 		private static const NEG_X : Class;
 		
-		[Embed(source="../assets/skybox/negy.jpg")]
+		[Embed(source="/../assets/skybox/negy.jpg")]
 		private static const NEG_Y : Class;
 		
-		[Embed(source="../assets/skybox/negz.jpg")]
+		[Embed(source="/../assets/skybox/negz.jpg")]
 		private static const NEG_Z : Class;
 		
-		[Embed(source="../assets/skybox/posx.jpg")]
+		[Embed(source="/../assets/skybox/posx.jpg")]
 		private static const POS_X : Class;
 		
-		[Embed(source="../assets/skybox/posy.jpg")]
+		[Embed(source="/../assets/skybox/posy.jpg")]
 		private static const POS_Y : Class;
 		
-		[Embed(source="../assets/skybox/posz.jpg")]
+		[Embed(source="/../assets/skybox/posz.jpg")]
 		private static const POS_Z : Class;
 		
 	    override protected function initializeScene() : void

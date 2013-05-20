@@ -17,7 +17,7 @@ package aerys.minko.example.core.stencil
 	 */
 	public class StencilExample extends MinkoExampleApplication
 	{		
-		[Embed("../assets/wall.png")]
+		[Embed("/../assets/wall.png")]
 		private static const TEXTURE	: Class;
 		
 		override protected function initializeScene():void

@@ -20,7 +20,7 @@ package aerys.minko.example.core.terrain
 
 	public class TerrainExample extends MinkoExampleApplication
 	{
-		[Embed(source="../assets/terrain.jpg")]
+		[Embed(source="/../assets/terrain.jpg")]
 		private static const TERRAIN_TEXTURE	: Class;
 		
 		private static const SIZE				: uint	= 250;

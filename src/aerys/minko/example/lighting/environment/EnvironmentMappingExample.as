@@ -10,31 +10,31 @@ package aerys.minko.example.lighting.environment
 
 	public class EnvironmentMappingExample extends MinkoExampleApplication
 	{
-		[Embed(source="../assets/reflections/blinn-newell.jpg")]
+		[Embed(source="/../assets/reflections/blinn-newell.jpg")]
 		private static const BLINN_NEWELL_MAP	: Class;
 		
-		[Embed(source="../assets/reflections/probe.jpg")]
+		[Embed(source="/../assets/reflections/probe.jpg")]
 		private static const PROBE_MAP			: Class;
 		
-		[Embed(source="../assets/skybox/posz.jpg")]
+		[Embed(source="/../assets/skybox/posz.jpg")]
 		private static const CUBE_MAP_FRONT		: Class;
 		
-		[Embed(source="../assets/skybox/negz.jpg")]
+		[Embed(source="/../assets/skybox/negz.jpg")]
 		private static const CUBE_MAP_BACK		: Class;
 		
-		[Embed(source="../assets/skybox/negx.jpg")]
+		[Embed(source="/../assets/skybox/negx.jpg")]
 		private static const CUBE_MAP_LEFT		: Class;
 		
-		[Embed(source="../assets/skybox/posx.jpg")]
+		[Embed(source="/../assets/skybox/posx.jpg")]
 		private static const CUBE_MAP_RIGHT		: Class;
 		
-		[Embed(source="../assets/skybox/posy.jpg")]
+		[Embed(source="/../assets/skybox/posy.jpg")]
 		private static const CUBE_MAP_TOP		: Class;
 		
-		[Embed(source="../assets/skybox/negy.jpg")]
+		[Embed(source="/../assets/skybox/negy.jpg")]
 		private static const CUBE_MAP_BOTTOM	: Class;
 		
-		[Embed(source="../assets/reflections/escher.env.jpg")]
+		[Embed(source="/../assets/reflections/escher.env.jpg")]
 		private static const CUBE_MAP_FULL		: Class;
 		
 		override protected function initializeScene() : void

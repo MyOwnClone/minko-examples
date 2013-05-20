@@ -21,13 +21,13 @@ package aerys.minko.example.lighting.normalmapping
 	 */	
 	public class NormalMappingExample extends MinkoExampleApplication
 	{
-		[Embed(source="../assets/parallaxmapping/collage.jpg")]
+		[Embed(source="/../assets/parallaxmapping/collage.jpg")]
 		private static const DIFFUSE_MAP	: Class;
 		
-		[Embed(source="../assets/parallaxmapping/collage-normal.jpg")]
+		[Embed(source="/../assets/parallaxmapping/collage-normal.jpg")]
 		private static const NORMAL_MAP		: Class;
 		
-		[Embed(source="../assets/parallaxmapping/collage-bump.jpg")]
+		[Embed(source="/../assets/parallaxmapping/collage-bump.jpg")]
 		private static const HEIGHT_MAP		: Class;
 		
 		private var _light : DirectionalLight = new DirectionalLight(0xffffffff, 1, 1.0, 128);

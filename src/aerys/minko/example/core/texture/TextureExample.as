@@ -9,7 +9,7 @@ package aerys.minko.example.core.texture
 
 	public class TextureExample extends MinkoExampleApplication
 	{
-		[Embed("../assets/checker.jpg")]
+		[Embed("/../assets/checker.jpg")]
 		private static const ASSET_TEXTURE	: Class;
 		
 		override protected function initializeScene() : void

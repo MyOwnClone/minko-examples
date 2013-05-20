@@ -16,9 +16,9 @@ package aerys.minko.example.lighting
 	
 	public class AbstractLightExampleApplication extends MinkoExampleApplication
 	{
-		[Embed(source="../assets/textures/brickwork-texture.jpg")]
+		[Embed(source="/../assets/textures/brickwork-texture.jpg")]
 		private static const BRICK_DIFFUSE	: Class;
-		[Embed(source="../assets/textures/brickwork_normal-map.jpg")]
+		[Embed(source="/../assets/textures/brickwork_normal-map.jpg")]
 		private static const BRICK_NORMALS	: Class;
 		
 		private var _teapotGroup		: Group;

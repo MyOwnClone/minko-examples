@@ -5,3 +5,5 @@ bin-debug
 html-template
 bin-release
 *.ipa
+*.swf
+.gitignore
